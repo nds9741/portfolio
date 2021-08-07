@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="py-3 text-center">bootstrap-4 form classes</h2>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">UserName</label>
+                    <input type="text" class="form-control form-control-lg" placeholder="name">
+                    <input type="text" class="form-control " placeholder="name">
+                    <input type="text" class="form-control form-control-sm" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <label for="">gmail</label>
+                    <input type="text" value="kdevuja@gmail.com" class="form-control-plaintext" readonly >
+                </div>
+                <div class="form-group">
+                    <label for="">password</label>
+                    <input type="password" class="form-control" placeholder="password">
+                </div>
+                <small class="form-text text-muted">
+                      youe password must bre 8-20 characters logo.
+                </small>
+                <div class="form-group">
+                    <label>country</label>
+                    <select name="" id="" class="form-control">
+                        <option value="">India</option>
+                        <option value="">china</option>
+                        <option value="">srilanka</option>
+                        <option value="">pakistan</option>
+                        <option value="">dudia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="">Message</label>
+                    <textarea name="" class="form-control" ></textarea>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">upload</label>
+                    <div>
+                        <input type="file" class="form-control-file" ></input>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Amout</label>
+                    <div>
+                        <input type="range" class="form-control-range">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Hobbies</label>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="musicCheck">
+                        <label for="musicCheck" class="form-check-lable">music</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="sportCheck">
+                        <label for="sportCheck" class="form-check-lable">sport</label>
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="maleCheck">
+                        <label for="maleCheck" class="form-check-lable">make</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="femaleCheck">
+                        <label for="femaleCheck" class="form-check-lable">female</label>
+                    </div>
+                    
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>

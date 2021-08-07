@@ -1,0 +1,15 @@
+.container{
+    border: 1px solid black;
+}
+.card{
+    width: 18rem;
+}
+.card-title{
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+    color: blue;
+}
+.card-text{
+    color: deepskyblue;
+}
